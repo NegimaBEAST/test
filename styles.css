@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(121, 104, 199);
+}
+
+/* Стили хеддера */
+
+.header_wrapper {
+  background-color: rgb(73, 62, 119);
+  padding: 30px 0;
+}
+
+.header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  column-gap: 40px;
+}
+
+.header ul {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+
+.header li:hover {
+  color: rgb(233, 159, 34);
+  cursor: pointer;
+}
+
+.header li {
+  transition: 0.2s;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Стили main */
+
+.main {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  column-gap: 40px;
+}
+
+.main_img img {
+  width: 500px;
+}
+
+.main span {
+  font-size: 20px;
+  color: aqua;
+}
+
+/* Стили services */
+
+.services {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 50px;
+  margin-top: 50px;
+}
+
+.services div img {
+  width: 150px;
+}
+
+.services div {
+  padding: 20px;
+  transition: 0.5s;
+  border: 1px solid rgb(121, 104, 199);
+}
+
+.services p {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.services div:hover {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+
+/* Стили raider io */
+
+.rio_wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(79, 75, 73);
+  padding-bottom: 100px;
+}
+
+@font-face {
+  font-family: "FontName";
+  src: url(/fonts/Salesforce\ Sans.ttf);
+}
+
+.best_warrior_in_the_world {
+  display: flex;
+  width: 80%;
+  column-gap: 15px;
+}
+
+.best_warrior_in_the_world div:first-of-type {
+  margin-left: 13px;
+}
+
+.best_warrior_in_the_world p {
+  margin-top: 10px;
+  color: white;
+  font-family: "FontName";
+  font-size: 12px;
+  padding: 6px 13px;
+  border-radius: 7px 7px 0 0;
+}
+
+.best_warrior_in_the_world .first_column {
+  background-color: rgb(17, 17, 17);
+}
+
+.best_warrior_in_the_world p {
+  background-color: rgb(52, 47, 45);
+  border-radius: 7px 7px 0 0;
+  border: 1px solid rgb(17, 17, 17);
+}
+
+.best_warrior_in_the_world p:hover {
+  color: rgb(240, 189, 15);
+  background-color: rgb(21, 19, 20);
+  cursor: pointer;
+}
+
+.columns_name {
+  display: flex;
+  width: 80%;
+  font-family: "FontName";
+}
+
+.columns_name ul {
+  display: flex;
+  background-color: rgb(17, 17, 17);
+  font-size: 13px;
+  color: white;
+  padding: 8px;
+  flex-grow: 2.5;
+}
+
+.columns_name p {
+  padding: 8px 10px;
+  margin-left: 13px;
+  color: white;
+  font-size: 13px;
+  flex-grow: 1;
+}
+
+.columns_name ul li {
+  width: 16%;
+  text-align: center;
+}
+
+.columns_name span {
+  color: rgb(77, 151, 255);
+}
+
+.columns_name img {
+  width: 24px;
+}
+
+.columns_name > div {
+  display: flex;
+  padding: 8px 10px;
+  margin-left: 13px;
+  background-color: rgb(17, 17, 17);
+  flex-grow: 1;
+  align-items: center;
+}
+
+.columns_name div p {
+  padding: 0;
+}
+
+.columns_name:nth-of-type(3) div p {
+  margin-left: 7px;
+}
+
+.columns_name div div {
+  width: 24px;
+}
+
+.columns_name:nth-of-type(3) div,
+.columns_name:nth-of-type(3) ul {
+  background-color: rgb(53, 53, 53);
+}
+
+.rio_b {
+  color: rgb(77, 151, 255);
+}
+
+.rio_g {
+  color: greenyellow;
+}
+
+.columns_name:nth-of-type(2) p {
+  margin-right: 41.5px;
+}
+
+.columns_name:nth-of-type(2) li {
+  font-size: 14px;
+}
+
+.columns_name:nth-of-type(4) p {
+  margin-left: 7px;
+}
+
+.columns_name:nth-of-type(4) div,
+.columns_name:nth-of-type(4) ul {
+  background-color: rgb(43, 43, 43);
+}
+
+.columns_name:nth-of-type(3) div {
+  padding-right: 25.9px;
+}
+
+.columns_name:nth-of-type(4),
+.columns_name:nth-of-type(3),
+.columns_name:nth-of-type(2) {
+  border-right: 2px solid rgb(17, 17, 17);
+}
+
+.columns_name:nth-of-type(4) div,
+.columns_name:nth-of-type(3) div,
+.columns_name:nth-of-type(2) div {
+  border-left: 2px solid rgb(17, 17, 17);
+}
+
+.columns_name:nth-of-type(4) div,
+.columns_name:nth-of-type(4) ul {
+  border-bottom: 2px solid rgb(17, 17, 17);
+}
